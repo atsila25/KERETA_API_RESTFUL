@@ -16,7 +16,8 @@ class KeretaResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'nama' => $this->nama
+            'nama' => $this->nama,
+            'harga' => $this->harga,
         ];
     }
 }

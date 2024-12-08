@@ -20,7 +20,8 @@ class JadwalResource extends JsonResource
             'stasiun_tujuan' => $this->stasiun_tujuan->nama,
             'kereta' => $this->kereta->nama,
             'tanggal' => $this->tanggal,
-            'jam' => $this->jam
+            'jam' => $this->jam,
+            'harga' => $this->kereta->harga
         ];
     }
 }

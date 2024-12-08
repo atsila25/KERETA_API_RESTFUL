@@ -94,4 +94,8 @@ class JadwalController extends Controller
 
         return ApiResponse::success('data jadwal berhasil dihapus');
     }
+
+    public function getHarga(){
+
+    }
 }
